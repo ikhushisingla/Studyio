@@ -143,7 +143,7 @@ export const Navigation=()=>{
             <div onMouseDown={hanleMouseDown} onClick={resetWidth} className="opacity-0 group-hover/sidebar:opacity-100 transition cursor-ew-resize absolute h-full w-1 bg-primary/10 right-0 top-0"/>
         </aside>
         <div ref={navbarRef} className={cn (
-            "absolute top-0 z-[99999] left-60 w-[calc[100%-240px]]",
+            `absolute top-0 z-[99999] left-60 w-[calc(100%-240px)]`,
             isResetting && "transition-all ease-in-out duration-300",
             isMobile && "left-0 w-full"
             )}

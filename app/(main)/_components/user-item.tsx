@@ -14,7 +14,7 @@ export const UserItem=()=>{
                     <Avatar className="h-5 w-5">
                         <AvatarImage src={user?.imageUrl}/>
                     </Avatar>
-                    <span>{user?.fullName}&apos;s Studyio</span>
+                    <span>{user?.firstName}&apos;s Studyio</span>
                 </div>
                 <ChevronsLeftRight className="rotate-90 ml-2 text-muted-foreground h-4 w-4"/>
             </div>
